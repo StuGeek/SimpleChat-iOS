@@ -1,0 +1,26 @@
+use_frameworks!
+platform :ios, '11.0'
+
+
+# Import CocoaPods sources
+# source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SimpleChat' do
+
+    pod 'MBProgressHUD'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'HyphenateChat'
+    pod 'SDWebImage'
+    pod 'AgoraRtcEngine_iOS'
+    pod 'FMDB'
+    pod 'EaseCallKit'
+    pod 'EaseIMKit'
+    pod 'SDAutoLayout'
+    pod 'DLPhotoPicker'
+    pod 'MLLabel', :git => 'git://github.com/molon/MLLabel.git'
+    pod 'LEETheme', :git => 'git://github.com/lixiang1994/LEETheme.git'
+
+
+end
+
